@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sectionTitle {
+	font-size: 3em;
+	padding-bottom: 50px;
+}
+
+p {
+	margin-bottom: 25px;
+	font-size: 1.1em;
+}
+
+p:nth-child(3), p:nth-child(6) {
+	margin-bottom: 0;
+}
+
+/*
+CSS for the background and main title
+*/
+
+.background {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pageTitle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 4em;
+	text-align: center;
+}
+
+@keyframes scrollIconOpacity {
+	0%, 100% {opacity: 1;}
+	50% {opacity: 0;}
+}
+
+.scrollIcon {
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	transform: translateX(-50%);
+	animation: scrollIconOpacity 4s infinite;
+}
+
+/*
+CSS for the main body
+*/
+
+.rellaxMain {
+	background-color: white;
+	text-align: center;
+}
+
+.rellaxMain > div {
+	padding: 50px 0;
+}
+
+/*
+CSS for the about section
+*/
+
+.aboutInfo {
+	display: flex;
+	align-items: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.aboutInfo img {
+	width: 250px;
+}
+
+.aboutText {
+	padding-left: 50px;
+}
+
+/*
+CSS for the work section
+*/
+
+.workSection {
+	background-color: #124B7C;
+	color: white;
+}
+
+.workText {
+	width: 70%;
+	margin: 0 auto;
+}
+
+/*
+CSS for the contact section
+*/
+
+.contactText {
+	display: flex;
+	justify-content: center;
+}
+
+.contactText > div {
+	display: flex;
+	flex-direction: column;
+	margin: 0 25px;
+}
+
+/*
+CSS for the fade in animation
+*/
+
+.hidden {
+	opacity: 0;
+}
+
+@keyframes fade-in {
+	from {opacity: 0; top: 25px;}
+	to {opacity: 1; top: 0}
+}
+
+.fade-in-element {
+	position: relative;
+	animation: fade-in 1s;
+}
+
+@keyframes fade-in-title {
+	from {opacity: 0; margin-top: 25px;}
+	to {opacity: 1; margin-top: 0}
+}
+
+.pageTitle.fade-in-element {
+	position: absolute;
+	animation: fade-in-title 1s;
+}
+
+@media (max-width: 1024px) {
+	.aboutInfo, .workText {
+		width: 90%;
+	}
+}
+
+@media (max-width: 700px) {
+	.aboutInfo {
+		flex-direction: column;
+	}
+	.aboutInfo img {
+		margin-bottom: 25px;
+	}
+	.aboutText {
+		padding-left: 0;
+	}
+}
