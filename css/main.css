@@ -41,8 +41,15 @@ CSS for the background and main title
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
-	font-size: 4em;
 	text-align: center;
+}
+
+.pageTitleMain {
+	font-size: 4em;
+}
+
+.pageTitleSub {
+	font-size: 2em;
 }
 
 @keyframes scrollIconOpacity {
@@ -142,7 +149,7 @@ CSS for the fade in animation
 	to {opacity: 1; margin-top: 0}
 }
 
-.pageTitle.fade-in-element {
+.pageTitle.fade-in-element, .pageSubTitle.fade-in-element {
 	position: absolute;
 	animation: fade-in-title 1s;
 }
