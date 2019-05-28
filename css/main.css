@@ -82,6 +82,11 @@ CSS for the main body
 CSS for the about section
 */
 
+.aboutSection {
+	background-color: #124B7C;
+	color: white;
+}
+
 .aboutInfo {
 	display: flex;
 	align-items: center;
@@ -101,10 +106,12 @@ CSS for the about section
 CSS for the work section
 */
 
+/*
 .workSection {
 	background-color: #124B7C;
 	color: white;
 }
+*/
 
 .workText {
 	width: 70%;
