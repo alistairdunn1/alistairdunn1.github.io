@@ -65,6 +65,12 @@ CSS for the background and main title
 	animation: scrollIconOpacity 4s infinite;
 }
 
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
 /*
 CSS for the main body
 */
@@ -123,6 +129,7 @@ CSS for the contact section
 */
 
 .contactText {
+  font-size: 1.2em;
 	display: flex;
 	justify-content: center;
 }
