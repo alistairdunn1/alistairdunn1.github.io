@@ -175,6 +175,12 @@ CSS for the fade in animation
 }
 
 @media (max-width: 700px) {
+	.pageTitleMain {
+		font-size: 3.5em;
+	}
+	.pageTitleSub {
+		font-size: 1.5em;
+	}
 	.aboutInfo {
 		flex-direction: column;
 	}
@@ -183,5 +189,8 @@ CSS for the fade in animation
 	}
 	.aboutText {
 		padding-left: 0;
+	}
+	p {
+		font-size: 1.3em;
 	}
 }
