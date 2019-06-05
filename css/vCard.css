@@ -165,14 +165,14 @@ img.profile-pic {
     font-family: 'Roboto bold', sans-serif;
     font-weight: 200;
     color: #124B7C;
-    font-size: 2em;
+    font-size: 2.4em;
 }
 
 .text-detail {
     font-family: 'Roboto bold', sans-serif;
     font-weight: 300;
     color: #124B7C;
-    font-size: 2em;
+    font-size: 2.1em;
 }
 
 .bottom {
@@ -181,15 +181,16 @@ img.profile-pic {
 
 .button {
 	background-color: #124B7C;
-	height: 48px;
+	height: 64px;
 	padding-left: 24px
 	padding-right: 24px;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 48px;
+	line-height: 61px;
 	font-family: 'Roboto bold', sans-serif;
 	color: white;
 	font-weight: 300;
+	font-size: 2em;
 }
 
 @media screen and (max-width: 600px) {
