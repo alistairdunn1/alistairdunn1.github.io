@@ -158,21 +158,21 @@ img.profile-pic {
     font-family: 'Roboto bold', sans-serif;
     font-weight: 400;
     color: #124B7C;
-    font-size: 3em;
+    font-size: 150%;
 }
 
 .text-title-company {
     font-family: 'Roboto bold', sans-serif;
     font-weight: 200;
     color: #124B7C;
-    font-size: 2.4em;
+    font-size: 120%;
 }
 
 .text-detail {
     font-family: 'Roboto bold', sans-serif;
     font-weight: 300;
     color: #124B7C;
-    font-size: 2.1em;
+    font-size: 90%;
 }
 
 .bottom {
@@ -181,16 +181,16 @@ img.profile-pic {
 
 .button {
 	background-color: #124B7C;
-	height: 64px;
-	padding-left: 24px
-	padding-right: 24px;
+	height: 200%;
+	padding-left: 100%
+	padding-right: 100%;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 61px;
+	line-height: 180%;
 	font-family: 'Roboto bold', sans-serif;
 	color: white;
 	font-weight: 300;
-	font-size: 2em;
+	font-size: 110%;
 }
 
 @media screen and (max-width: 600px) {
