@@ -40,7 +40,7 @@ CSS for the background and main title
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: white;
+	color: #F2F2F2;
 	text-align: center;
 }
 
@@ -76,7 +76,7 @@ CSS for the main body
 */
 
 .rellaxMain {
-	background-color: white;
+	background-color: #F2F2F2;
 	text-align: center;
 }
 
