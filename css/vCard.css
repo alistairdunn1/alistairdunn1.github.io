@@ -158,21 +158,21 @@ img.profile-pic {
     font-family: 'Roboto bold', sans-serif;
     font-weight: 400;
     color: #124B7C;
-    font-size: 25px;
+    font-size: 3em;
 }
 
 .text-title-company {
     font-family: 'Roboto bold', sans-serif;
     font-weight: 200;
     color: #124B7C;
-    font-size: 18px;
+    font-size: 2em;
 }
 
 .text-detail {
     font-family: 'Roboto bold', sans-serif;
     font-weight: 300;
     color: #124B7C;
-    font-size: 15px;
+    font-size: 2em;
 }
 
 .bottom {

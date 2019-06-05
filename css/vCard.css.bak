@@ -1,3 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
 html,
 body {
   height: 100%;
@@ -151,14 +158,14 @@ img.profile-pic {
     font-family: 'Roboto bold', sans-serif;
     font-weight: 400;
     color: #124B7C;
-    font-size: 25px;
+    font-size: 3em;
 }
 
 .text-title-company {
     font-family: 'Roboto bold', sans-serif;
     font-weight: 200;
     color: #124B7C;
-    font-size: 18px;
+    font-size: 2em;
 }
 
 .text-detail {
