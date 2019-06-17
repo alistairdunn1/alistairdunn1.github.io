@@ -282,4 +282,13 @@ CSS for the fade in animation
 	.parentBox  {
 		width: 96%;
 	}
+	.profileImage img {
+		width: 150px;
+	}
+	.title {
+		text-align: center;
+	}
+	.contactLinks {
+		font-size: 0.8em;
+	}
 }
