@@ -169,6 +169,14 @@ CSS for the contact page
 	border-radius: 50%;
 }
 
+.graphImage img {
+  max-width: 90%;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
+}
+
 .contactBox {
 	margin: 24px auto 0 auto;
 	padding: 24px;
