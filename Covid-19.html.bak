@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="Ocean Environmental Limited">
+		<meta author="Alistair Dunn">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="images/logo.png">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed&display=swap">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body class="grey">
+		<div class="graphImage">
+			<p class="hidden"></p>
+			<img src="COVID-19/Cases.jpg" alt="Cases of COVID-19">
+			<p class="hidden"></p>
+			<img src="COVID-19/CasesFromFirst.jpg" alt="Cases of COVID-19 from first report">
+			<p class="hidden"></p>
+			<img src="COVID-19/NewCases.jpg" alt="New cases of COVID-19">
+			<p class="hidden"></p>
+			<img src="COVID-19/Map.jpg" alt="Map of COVID-19">
+		</div>
+	</body>
+</html>
