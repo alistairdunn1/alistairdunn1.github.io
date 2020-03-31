@@ -30,13 +30,15 @@ td.logo_area{
   top: 40px;
   left: 40px;
   width: 100%;
+	padding: 10px;
 }
 
 .logo img {
 	max-width: 400px;
+	height: auto;
 }
 td.middle_spacer {
-	width: 800px;
+	max-width: 800px;
 	background-color: #011723;
 }
 td.shadow_right {
@@ -102,6 +104,7 @@ td.horizontal_column {
 	display: table-cell;
 	vertical-align: top;
 	padding: 25px;
+	
 }
 td.bottom_link_container {
 	background-color: #011723;
@@ -126,9 +129,11 @@ td.horizontal_center {
 	border-bottom-color: #011723;
 	border-left-color: #333333;
 	height: 150px;
+	width: auto;
 	display: table-cell;
 	vertical-align: top;
 	background-image: url(../images_template/header_bg3.jpg);
+	background-size: cover;
 }
 td.header_column {
 	height: 100px;
@@ -137,6 +142,7 @@ td.header_column {
 	font-size: large;
 	background-image: url(../images_template/header2_bg.jpg);
 	background-position: top;
+	background-size: cover;
 }
 td.left_content {
 	width: 200px;
