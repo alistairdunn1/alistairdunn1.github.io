@@ -22,19 +22,20 @@ td.logo_area{
 	border-left-style: solid;
 	border-top-color: #FFFFFF;
 	border-right-color: #FFFFFF;
-	border-bottom-color: #FFFFFF;
+	border-bottom:60%;
+	color: #FFFFFF;
 	border-left-color: #FFFFFF;
 }
 .logo {
-  position: right;
-  top: 40px;
-  left: 40px;
-  width: 100%;
+	position: right;
+	top: 40px;
+	left: 40px;
+	width: 100%;
 	padding: 10px;
 }
 
 .logo img {
-	max-width: 400px;
+	max-width: 60%;
 	height: auto;
 }
 td.middle_spacer {
