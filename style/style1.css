@@ -33,7 +33,7 @@ td.logo_area{
 }
 
 .logo img {
-	width: 400px;
+	max-width: 400px;
 }
 td.middle_spacer {
 	width: 800px;
