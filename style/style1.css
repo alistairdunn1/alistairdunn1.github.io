@@ -22,8 +22,7 @@ td.logo_area{
 	border-left-style: solid;
 	border-top-color: #FFFFFF;
 	border-right-color: #FFFFFF;
-	border-bottom:60%;
-	color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
 	border-left-color: #FFFFFF;
 }
 .logo {
@@ -53,7 +52,7 @@ td.shadow_left {
 	background-position: right;
 }
 td.body_content {
-	padding: 25px;
+	padding: 5px;
 	background-color: A5B5C2;
 	background-image: url(../images_template/bg_content.jpg);
 	background-repeat: repeat;
@@ -61,7 +60,7 @@ td.body_content {
 }
 td.below_header{
 	background-color: #011723;
-	height: 100px;
+	height: 50px;
 	color: #CCCCCC;
 	padding: 30px;
 	text-align: left;
@@ -69,22 +68,7 @@ td.below_header{
 }
 td.main_content_box {
 	background-color: #A5B5C2;
-	border-top-width: 0px;
-	border-right-width: 0px;
-	border-bottom-width: 1px;
-	border-left-width: 0px;
-	border-top-style: solid;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-left-style: solid;
-	border-top-color: #011723;
-	border-right-color: #011723;
-	border-bottom-color: #011723;
-	border-left-color: #011723;
-	height: 150px;
-	display: table-cell;
-	vertical-align: top;
-	padding: 10px;
+
 }
 
 td.horizontal_column {
