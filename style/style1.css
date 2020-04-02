@@ -1,5 +1,6 @@
 body {
-	margin: 0px auto;
+	margin: 0px auto !important;
+	float: none !important; 	
 	background-color: #3E4F59;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -36,7 +37,7 @@ td.logo_area{
 }
 
 .logo img {
-	max-width: 60%;
+	width: 66%;
 	height: auto;
 }
 td.middle_spacer {
@@ -97,7 +98,7 @@ td.horizontal_column {
 	height: 150px;
 	display: table-cell;
 	vertical-align: top;
-	padding: 25px;
+	padding: 30px;
 	
 }
 td.bottom_link_container {
@@ -106,6 +107,28 @@ td.bottom_link_container {
 	color: #FFFFFF;
 	padding: 30px;
 	font-size: 1.2em;
+}
+
+td.horizontal_center_main {
+	background-color: #FFFFFF;
+	border-top-width: 15px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #011723;
+	border-right-color: #333333;
+	border-bottom-color: #011723;
+	border-left-color: #333333;
+	height: 500px;
+	display: table-cell;
+	vertical-align: top;
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+  background-repeat: no-repeat;
 }
 
 td.horizontal_center {
@@ -123,11 +146,11 @@ td.horizontal_center {
 	border-bottom-color: #011723;
 	border-left-color: #333333;
 	height: 150px;
-	width: auto;
 	display: table-cell;
 	vertical-align: top;
 	background-image: url(../images_template/header_bg3.jpg);
 	background-size: cover;
+  background-repeat: no-repeat;
 }
 td.header_column {
 	height: 100px;
