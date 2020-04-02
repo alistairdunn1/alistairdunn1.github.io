@@ -3,6 +3,8 @@ body {
 	background-color: #3E4F59;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
+    line-height:180%;
+	margin-bottom: 1.2em;
 }
 table.linkcontainer td{
 	background-color: #011723;
@@ -75,10 +77,9 @@ td.below_header{
 	font-size: 1.2em;
 }
 td.main_content_box {
+	padding: 5px;
 	background-color: #A5B5C2;
-
 }
-
 td.horizontal_column {
 	background-color: #011723;
 	border-top-width: 15px;
