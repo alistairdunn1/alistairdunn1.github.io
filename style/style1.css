@@ -56,14 +56,14 @@ td.shadow_left {
 }
 td.body_content {
 	padding: 5px;
-	background-color: A5B5C2;
+	background-color: #A5B5C2;
 	background-image: url(../images_template/bg_content.jpg);
 	background-repeat: repeat;
 	font-size: 1.2em;	
 }
 td.body_content_centre {
 	padding: 5px;
-	background-color: A5B5C2;
+	background-color: #A5B5C2;
 	background-image: url(../images_template/bg_content.jpg);
 	background-repeat: repeat;
 	font-size: 1.2em;	
