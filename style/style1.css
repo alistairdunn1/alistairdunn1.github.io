@@ -59,7 +59,8 @@ td.shadow_left {
 td.body_content {
 	padding: 5px;
 	background-image: url(../images_template/bg_content.jpg);
-	background-repeat: repeat;
+	background-repeat: repeat-y;
+	background-position: right;
 	font-size: 1.2em;	
 	color: #083C49;
 }
