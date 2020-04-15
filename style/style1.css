@@ -180,6 +180,8 @@ a.main_link:active,a.main_link:visited,a.main_link:link{
 	width: 100%;
 	color: #D0DBDD;
 	line-height: 50px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
 }
 a.main_link:hover{
 	color: #FFFFFF;
@@ -202,6 +204,6 @@ div.navigation {
 	line-height: small;
 	vertical-align: middle;
 	text-align: center;
-	padding: 0px;
+	padding: 1px;
 	color: #D0DBDD;
 }
