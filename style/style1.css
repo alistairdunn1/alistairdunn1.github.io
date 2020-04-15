@@ -1,7 +1,7 @@
 body {
 	margin: 0px auto !important;
 	float: none !important; 	
-	background-color: #3E4F59;
+	background-color: #D0DBDD;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
     line-height:180%;
@@ -9,34 +9,36 @@ body {
 }
 table.linkcontainer td{
 	background-color: #011723;
-	filter:alpha(opacity=70);
-	opacity: .7;
-	-moz-opacity: .7;
+	filter:alpha(opacity=60);
+	opacity: 0.7;
+	-moz-opacity: 0.7;
 	font-size: 1.2em;
 }
 td.logo_area{
 	border-top-width: 0px;
 	border-right-width: 5px;
 	border-bottom-width: 0px;
-	border-left-width: 0px;
+	border-left-width: 5px;
 	border-top-style: solid;
 	border-right-style: solid;
 	border-bottom-style: solid;
 	border-left-style: solid;
-	border-top-color: #FFFFFF;
-	border-right-color: #FFFFFF;
-	border-bottom-color: #FFFFFF;
-	border-left-color: #FFFFFF;
+	border-top-color: #D0DBDD;
+	border-right-color: #D0DBDD;
+	border-bottom-color: #D0DBDD;
+	border-left-color: #D0DBDD;
 }
 .logo {
 	position: right;
-	top: 40px;
-	left: 40px;
-	width: 100%;
-	padding: 10px;
+	top: 30px;
+	bottom: 30px;
+	left: 0px;
+	width: 60%;
+	padding: 25px;
 }
 
 .logo img {
+	position: right;
 	width: 66%;
 	height: auto;
 }
@@ -60,6 +62,7 @@ td.body_content {
 	background-image: url(../images_template/bg_content.jpg);
 	background-repeat: repeat;
 	font-size: 1.2em;	
+	color: #011723;
 }
 td.body_content_centre {
 	padding: 5px;
@@ -70,31 +73,31 @@ td.body_content_centre {
   text-align: center;
 }
 td.below_header{
-	background-color: #011723;
+	background-color: #083C49;
 	height: 50px;
-	color: #CCCCCC;
+	color: #D0DBDD;
 	padding: 30px;
 	text-align: left;
 	font-size: 1.2em;
 }
 td.main_content_box {
 	padding: 5px;
-	background-color: #D3DAE2;
+	background-color: #FFFFFF;
 }
 td.horizontal_column {
-	background-color: #011723;
+	background-color: #FFFFFF;
 	border-top-width: 15px;
 	border-right-width: 0px;
-	border-bottom-width: 1px;
+	border-bottom-width: 0px;
 	border-left-width: 0px;
 	border-top-style: solid;
 	border-right-style: solid;
 	border-bottom-style: solid;
 	border-left-style: solid;
-	border-top-color: #011723;
-	border-right-color: #011723;
-	border-bottom-color: #011723;
-	border-left-color: #011723;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
 	height: 150px;
 	display: table-cell;
 	vertical-align: top;
@@ -102,28 +105,28 @@ td.horizontal_column {
 	
 }
 td.bottom_link_container {
-	background-color: #011723;
+	background-color: #083C49;
 	text-align: center;
-	color: #FFFFFF;
-	padding: 30px;
+	color: #D0DBDD;
+	padding: 5px;
 	font-size: 1.2em;
 }
 
 td.horizontal_center_main {
-	background-color: #FFFFFF;
-	border-top-width: 15px;
+	background-color: #D0DBDD;
+	border-top-width: 0px;
 	border-right-width: 0px;
-	border-bottom-width: 1px;
+	border-bottom-width: 0px;
 	border-left-width: 0px;
 	border-top-style: solid;
 	border-right-style: solid;
 	border-bottom-style: solid;
 	border-left-style: solid;
-	border-top-color: #011723;
-	border-right-color: #333333;
-	border-bottom-color: #011723;
-	border-left-color: #333333;
-	height: 500px;
+	border-top-color: #D0DBDD;
+	border-right-color: #D0DBDD;
+	border-bottom-color: #D0DBDD;
+	border-left-color: #D0DBDD;
+	height: 300px;
 	display: table-cell;
 	vertical-align: top;
 	background-image: url(../images/background.jpg);
@@ -132,10 +135,10 @@ td.horizontal_center_main {
 }
 
 td.horizontal_center {
-	background-color: #FFFFFF;
+	background-color: #D0DBDD;
 	border-top-width: 15px;
 	border-right-width: 0px;
-	border-bottom-width: 1px;
+	border-bottom-width: 15px;
 	border-left-width: 0px;
 	border-top-style: solid;
 	border-right-style: solid;
@@ -155,7 +158,7 @@ td.horizontal_center {
 td.header_column {
 	height: 100px;
 	vertical-align: middle;
-	color: #FFFFFF;
+	color: #D0DBDD;
 	font-size: large;
 	background-image: url(../images_template/header2_bg.jpg);
 	background-position: top;
@@ -176,27 +179,30 @@ a.main_link:active,a.main_link:visited,a.main_link:link{
 	text-decoration: none;
 	display: block;
 	width: 100%;
-	color: #FFFFFF;
+	color: #D0DBDD;
 	line-height: 50px;
 }
 a.main_link:hover{
-	background-color:#011723;
 	color: #FFFFFF;
 }
 a.bottom_link:active,a.bottom_link:visited,a.bottom_link:link{
 	font-weight: bold;
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #D0DBDD;
 }
 a.bottom_link:hover{
-	color: #CCCCCC;
+	color: #FFFFFF;
 }
 div.bottom_content{
-	color: #FFFFFF;
+	color: #D0DBDD;
 	padding: 5px;
 }
 div.navigation {
 	height: 50px;
+	max-height: 50px;
+	line-height: small;
 	vertical-align: middle;
 	text-align: center;
+	padding: 0px;
+	color: #D0DBDD;
 }
