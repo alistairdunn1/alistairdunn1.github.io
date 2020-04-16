@@ -4,7 +4,7 @@ body {
 	background-color: #D0DBDD;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
-  line-height:180%;
+	line-height:180%;
 	margin-bottom: 1.2em;
 }
 table.linkcontainer td{
@@ -13,6 +13,7 @@ table.linkcontainer td{
 	opacity: 0.7;
 	-moz-opacity: 0.7;
 	font-size: 1.2em;
+	color: #011723;
 }
 td.logo_area{
 	border-top-width: 0px;
@@ -33,6 +34,7 @@ td.logo_area{
 	top: 30px;
 	bottom: 30px;
 	left: 0px;
+	right: 0px;
 	width: 60%;
 	padding: 25px;
 }
@@ -62,20 +64,20 @@ td.body_content {
 	background-repeat: repeat-y;
 	background-position: right;
 	font-size: 1.2em;	
-	color: #083C49;
+	color: #011723;
 }
 td.body_content_centre {
 	padding: 5px;
 	background-color: #FAFAFA;
 	background-repeat: repeat;
 	font-size: 1.2em;	
-  text-align: center;
- 	color: #083C49;
+	text-align: center;
+	color: #011723;
 }
 td.below_header{
-	background-color: #083C49;
+	background-color: #FFFFFF;
 	height: 50px;
-	color: #D0DBDD;
+	color: #011723;
 	padding: 30px;
 	text-align: left;
 	font-size: 1.2em;
@@ -83,6 +85,7 @@ td.below_header{
 td.main_content_box {
 	padding: 5px;
 	background-color: #FFFFFF;
+	color: #011723;
 }
 td.horizontal_column {
 	background-color: #FFFFFF;
@@ -104,11 +107,20 @@ td.horizontal_column {
 	padding: 30px;
 }
 td.bottom_link_container {
-	background-color: #083C49;
+	background-color: #011723;
 	text-align: center;
 	color: #D0DBDD;
-	padding: 5px;
 	font-size: 1.2em;
+	filter:alpha(opacity=60);
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	font-size: 1.2em;
+	border-top-width: 50px;
+	border-top-color: #FFFFFF;
+	border-top-style: solid;
+	border-bottom-width: 50px;
+	border-bottom-color: #FFFFFF;
+	border-bottom-style: solid;
 }
 
 td.horizontal_center_main {
@@ -152,7 +164,7 @@ td.horizontal_center {
 	vertical-align: top;
 	background-image: url(../images_template/header_bg3.jpg);
 	background-size: cover;
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
 td.header_column {
 	height: 100px;
@@ -162,6 +174,12 @@ td.header_column {
 	background-image: url(../images_template/header2_bg.jpg);
 	background-position: top;
 	background-size: cover;
+	border-top-width: 20px;
+	border-top-color: #FFFFFF;
+	border-top-style: solid;
+	border-bottom-width: 12px;
+	border-bottom-color: #FFFFFF;
+	border-bottom-style: solid;
 }
 td.left_content {
 	width: 200px;
