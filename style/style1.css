@@ -38,13 +38,13 @@ td.logo_area{
 	bottom: 30px;
 	left: 0px;
 	right: 0px;
-	width: 76%;
+	width: 70%;
 	padding: 5px;
 }
 
 .logo img {
 	position: right;
-	width: 100%;
+	width: 70%;
 	height: auto;
 }
 td.below_header{
