@@ -13,10 +13,10 @@ body {
 	border-right-color: #F0F0F0;
 	border-bottom-color: #F0F0F0;
 	border-left-color: #F0F0F0;
-	border-top-width: 20px;
-	border-right-width: 20px;
-	border-bottom-width: 20px;
-	border-left-width: 20px;
+	border-top-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
 }
 table.linkcontainer td{
 	background-color: #011723;
