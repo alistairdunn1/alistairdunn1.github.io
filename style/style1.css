@@ -67,8 +67,8 @@ td.body_content {
 	padding: 2%;
 	background-color: #FAFAFA;
 	background-image: url(../images_template/bg_content.jpg);
-	background-repeat: repeat-y;
-	background-position: right;
+	background-repeat: repeat;
+	background-position: left;
 	color: #024163;
 	text-align: left;
 	font-size: 1.2em;	
@@ -91,7 +91,7 @@ td.bottom_link_container {
 	opacity: 0.85;
 	-moz-opacity: 0.85;
 	font-size: 1.2em;
-	border-top-width: 50px;
+	border-top-width: 0px;
 	border-top-color: #F0F0F0;
 	border-top-style: solid;
 	border-bottom-width: 50px;
@@ -103,7 +103,7 @@ td.horizontal_center_main {
 	background-color: #F0F0F0;
 	border-top-width: 0px;
 	border-right-width: 0px;
-	border-bottom-width: 12px;
+	border-bottom-width: 10px;
 	border-left-width: 0px;
 	border-top-style: solid;
 	border-right-style: solid;
@@ -132,7 +132,7 @@ td.header_column {
 	border-top-width: 0px;
 	border-top-color: #F0F0F0;
 	border-top-style: solid;
-	border-bottom-width: 12px;
+	border-bottom-width: 10px;
 	border-bottom-color: #F0F0F0;
 	border-bottom-style: solid;
 }
