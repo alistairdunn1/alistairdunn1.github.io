@@ -82,6 +82,16 @@ td.body_content_centre {
 	color: #024163;
 	text-align: center;
 }
+td.body_content_column {
+	padding: 2%;
+	background-color: #FAFAFA;
+	color: #024163;
+	text-align: left;
+	font-size: 1.2em;
+	float: left;
+	width: 50%;
+}
+
 td.bottom_link_container {
 	background-color: #011723;
 	text-align: center;
